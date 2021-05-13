@@ -1,0 +1,25 @@
+@media (min-width: 992px){
+    .pl--lg-20px{
+        padding-left: 20px !important;
+    }
+}
+
+li.list-group-item {
+	position: relative;
+}
+
+li.list-group-item button {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+}
+li.list-group-item p.task {
+	color: #2E64FE;
+	margin-bottom: 2px !important;
+}
+
+li.list-group-item span.author{
+	font-size: 13px;
+	font-style: italic;
+	color: #585858;
+}
